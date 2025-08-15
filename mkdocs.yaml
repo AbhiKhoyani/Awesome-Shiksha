@@ -1,0 +1,31 @@
+site_name: Awesome-Shiksha
+
+site_url: https://abhikhoyani.github.io/awesome-shiksha/
+site_description: 'TODO: '
+
+repo_url: https://github.com/AbhiKhoyani/Awesome-Shiksha
+edit_uri: edit/main/
+
+theme: 
+  name: readthedocs
+  # Show/hide the homepage link in the sidebar navigation
+  include_homepage_in_sidebar: true
+  # Location of previous/next page buttons: 'bottom', 'top', 'both', or 'none'
+  prev_next_buttons_location: bottom
+  # Maximum navigation depth in the sidebar
+  navigation_depth: 4
+  # If true, collapses navigation to only show current page's sections and siblings
+  collapse_navigation: true
+  # Similar highlight.js settings as mkdocs theme
+  highlightjs: true
+  hljs_languages:
+    - python
+    - json
+  # Google Analytics (GA4)
+  analytics:
+    gtag: 'G-YOURTRACKINGID'
+  locale: en
+  
+nav:
+  - 'Home' : 'README.md'
+  - 'Contribution' : 'contribution/Contribution.md'
