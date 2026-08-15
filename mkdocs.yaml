@@ -1,31 +1,53 @@
 site_name: Awesome-Shiksha
 
-site_url: https://abhikhoyani.github.io/awesome-shiksha/
-site_description: 'TODO: '
+site_url: https://ekpratishat.github.io/awesome-shiksha/
+site_description: 'An open, modular, informal curriculum for accessible education, built and reviewed by the community.'
 
-repo_url: https://github.com/AbhiKhoyani/Awesome-Shiksha
+repo_url: https://github.com/EkPratishat/Awesome-Shiksha
 edit_uri: edit/main/
 
-theme: 
-  name: readthedocs
-  # Show/hide the homepage link in the sidebar navigation
-  include_homepage_in_sidebar: true
-  # Location of previous/next page buttons: 'bottom', 'top', 'both', or 'none'
-  prev_next_buttons_location: bottom
-  # Maximum navigation depth in the sidebar
+theme:
+  name: material
+  # Location of previous/next page buttons
   navigation_depth: 4
-  # If true, collapses navigation to only show current page's sections and siblings
-  collapse_navigation: true
-  # Similar highlight.js settings as mkdocs theme
+  features:
+    - navigation.sections
+    - navigation.top
   highlightjs: true
   hljs_languages:
     - python
     - json
-  # Google Analytics (GA4)
-  analytics:
-    gtag: 'G-YOURTRACKINGID'
   locale: en
-  
+
+plugins:
+  - search
+  - tags
+
 nav:
-  - 'Home' : 'README.md'
-  - 'Contribution' : 'contribution/Contribution.md'
+  - 'Home': 'README.md'
+  - 'Pre-School (3-5 years)':
+      - 'Overview': '3-5-years/README.md'
+      - 'Maths': '3-5-years/maths.md'
+      - 'Science': '3-5-years/science.md'
+      - 'English': '3-5-years/english.md'
+      - 'Ethics': '3-5-years/ethics.md'
+  - 'Grade 1-4 (6-9 years)':
+      - 'Overview': '6-9-years/README.md'
+      - 'Maths': '6-9-years/maths.md'
+      - 'Science': '6-9-years/science.md'
+      - 'English': '6-9-years/english.md'
+      - 'Ethics': '6-9-years/ethics.md'
+  - 'Grade 5-8 (10-13 years)':
+      - 'Overview': '10-13-years/README.md'
+      - 'Maths': '10-13-years/maths.md'
+      - 'Science': '10-13-years/science.md'
+      - 'English': '10-13-years/english.md'
+      - 'Ethics': '10-13-years/ethics.md'
+  - 'Grade 9-10 (14-15 years)':
+      - 'Overview': '14-15-years/README.md'
+      - 'Maths': '14-15-years/maths.md'
+      - 'Science': '14-15-years/science.md'
+      - 'English': '14-15-years/english.md'
+      - 'Ethics': '14-15-years/ethics.md'
+  - 'Tags': 'tags.md'
+  - 'Contribution Guideline': 'contribution/README.md'
